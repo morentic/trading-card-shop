@@ -1,5 +1,10 @@
 {
   "name": "shopware/production",
+  "authors": [
+    {
+      "name": "Marcel Kopp"
+    }
+  ],
   "license": "MIT",
   "type": "project",
   "require": {
@@ -35,7 +40,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "App\\": "src/"
+      "MkTradingCard\\": "src/"
     }
   },
   "minimum-stability": "stable",

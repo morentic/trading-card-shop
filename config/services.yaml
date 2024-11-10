@@ -19,7 +19,7 @@ services:
         #bind:
         #    'bool $isDebug': '%kernel.debug%'
 
-    App\:
+    MkTradingCard\:
         resource: '../src/'
         exclude:
             - '../src/DependencyInjection/'
