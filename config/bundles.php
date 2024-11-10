@@ -16,5 +16,4 @@ return [
     Shopware\Administration\Administration::class => ['all' => true],
     Shopware\Elasticsearch\Elasticsearch::class => ['all' => true],
     Shopware\Storefront\Storefront::class => ['all' => true],
-    MkTradingCard\MkTradingCard::class => ['all' => true],
 ];

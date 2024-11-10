@@ -1,0 +1,23 @@
+{
+  "name": "mkopp/trading-card",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcel Kopp"
+    }
+  ],
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "MkTradingCard\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "MkTradingCard\\MkTradingCard",
+    "label": {
+      "de-DE": "Trading Card Plugin",
+      "en-GB": "Trading Card Plugin"
+    }
+  }
+}

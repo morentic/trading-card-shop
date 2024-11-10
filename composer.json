@@ -9,6 +9,7 @@
   "type": "project",
   "require": {
     "composer-runtime-api": "^2.0",
+    "mkopp/trading-card": "^1.0",
     "shopware/administration": "*",
     "shopware/core": "v6.6.8.1",
     "shopware/elasticsearch": "*",
@@ -38,11 +39,6 @@
       }
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "MkTradingCard\\": "src/"
-    }
-  },
   "minimum-stability": "stable",
   "prefer-stable": true,
   "config": {

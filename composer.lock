@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b9eff9919917867b6b8e147a7b4d039",
+    "content-hash": "5a6efe15e982b6fd0af06b510ae6d75f",
     "packages": [
         {
             "name": "async-aws/core",
@@ -3139,6 +3139,40 @@
                 }
             ],
             "time": "2023-12-09T23:20:59+00:00"
+        },
+        {
+            "name": "mkopp/trading-card",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "custom/static-plugins/MkTradingCard",
+                "reference": "413df2b284fe6fe2ad1485f0ed7e8dcb3da54969"
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "shopware-plugin-class": "MkTradingCard\\MkTradingCard",
+                "label": {
+                    "de-DE": "Trading Card Plugin",
+                    "en-GB": "Trading Card Plugin"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MkTradingCard\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Kopp"
+                }
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "monolog/monolog",
